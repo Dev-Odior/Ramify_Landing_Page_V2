@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Ramify | Save Smart, Celebrate Big</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              // Strictly map all font stacks to Urbanist
+              sans: ['Urbanist', 'sans-serif'],
+              serif: ['Urbanist', 'sans-serif'],
+              mono: ['Urbanist', 'sans-serif'],
+              display: ['Urbanist', 'sans-serif'],
+              body: ['Urbanist', 'sans-serif'],
+            },
+            colors: {
+              primary: '#0EAD69', 
+              primaryDark: '#0B8A54',
+              secondary: '#F59E0B',
+              surface: '#F8FAFC',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Enforce Urbanist font globally to override any system/environment defaults */
+      html, body {
+        font-family: 'Urbanist', sans-serif !important;
+      }
+      
+      /* Ensure form elements inherit the font family instead of using browser defaults */
+      input, button, select, textarea {
+        font-family: inherit !important;
+      }
+
+      /* Custom scrollbar for modals/content */
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 6px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 10px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "@/": "./"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-surface text-slate-900 antialiased selection:bg-primary selection:text-white font-sans">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
