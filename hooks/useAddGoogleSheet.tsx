@@ -2,7 +2,7 @@ import { useMutation } from '@tanstack/react-query'
 import axios from 'axios'
 
 const addToSheet = async (props: any): Promise<any> => {
-  const backendUrl = 'http://localhost:5000/v1/landing-page/waitlist'
+  const backendUrl = 'https://ramify-backend.onrender.com/v1/landing-page/waitlist'
   const formData = new FormData()
 
   // Manually append key-value pairs to formData
