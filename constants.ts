@@ -54,7 +54,7 @@ export const VALUE_PROPS: ValueProp[] = [
   },
   {
     title: 'Secure & Insured',
-    description: 'Funds are fully secured and live stocks are 100% insured.',
+    description: 'Your funds are completely protected, and our livestock are fully insured.',
     icon: ShieldCheck,
   },
   {
