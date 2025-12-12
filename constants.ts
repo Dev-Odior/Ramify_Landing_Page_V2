@@ -35,7 +35,7 @@ export const NAV_ITEMS: NavItem[] = [
 ]
 
 export const TRUST_BADGES = [
-  'Leadway Insurance',
+  'Insured Livestocks',
   'Fund Are Fully Secure',
   'Vet Certified Rams',
   'Trusted Nationwide',
@@ -79,7 +79,8 @@ export const HOW_IT_WORKS_STEPS: Step[] = [
   },
   {
     title: 'Choose How to Pay',
-    description: 'One-time payment or flexible savings (Daily/Weekly/Monthly) via virtual account.',
+    description:
+      'One-time payment or flexible savings (Daily/Weekly/Monthly) via our virtual account.',
     icon: CreditCard,
   },
   {
