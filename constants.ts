@@ -36,7 +36,7 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const TRUST_BADGES = [
   'Insured Livestocks',
-  'Fund Are Fully Secure',
+  'Secured Funds',
   'Vet Certified Rams',
   'Trusted Nationwide',
 ]
